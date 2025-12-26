@@ -1,68 +1,54 @@
-Overview
+## Overview
 
 This project is a simple artificial neural network implemented from scratch in Java without using any machine learning libraries. The goal of the project is to understand the internal workings of neural networks, including forward propagation, backpropagation, weight updates, and matrix operations.
 
-Motivation
+## Motivation
 
-The project was built to strengthen understanding of how neural networks function at a low level, rather than relying on high-level frameworks. It focuses on learning the math, data flow, and architecture behind neural networks.
+The project was built to strengthen my understanding of how neural networks function at a low level, rather than relying on high-level frameworks. It focuses on learning the math, data flow, and architecture behind neural networks. I came across an article online that implemented a similar project in Python, but I wanted to do it in Java to understand what is really going on.
 
-Features
+## Features
 
-Fully connected feedforward neural network
+- Fully connected feedforward neural network
 
-Custom implementation of neurons, layers, weights, and biases
+- Custom implementation of neurons, layers, weights, and biases
 
-Forward propagation and backpropagation
+- Forward propagation and backpropagation
 
-Gradient-based weight and bias updates
+- Gradient-based weight and bias updates
 
-Configurable network architecture (input, hidden, output layers)
+- Configurable network architecture (input, hidden, output layers)
 
-No external ML libraries used
+- No external ML libraries used
 
-Technologies Used
+## Technologies Used
 
-Java
+- Java
 
-Basic linear algebra and matrix operations
+- Basic linear algebra and matrix operations
 
-What I Learned
+## What I Learned
 
-Neural network architecture and data flow
+- Neural network architecture and data flow
 
-Forward and backward propagation mechanics
+- Forward and backward propagation mechanics
 
-Gradient descent and loss minimization
+- Gradient descent and loss minimization
 
-Handling dimensionality and matrix operations
+- Handling dimensionality and matrix operations
 
-Implementing learning algorithms from first principles
+## Project Structure
 
-Project Structure
+- Main.java Entire project 
 
-Main.java Entire project 
+## How to Run
 
-How It Works
+- Clone the repository
 
-Input data is passed through the network using forward propagation.
+- Compile the Java files
 
-The output is compared against the expected result to calculate error.
+- Run the main class to train and test the network
 
-Backpropagation computes gradients for weights and biases.
-
-Parameters are updated using gradient descent.
-
-The process repeats over multiple training iterations.
-
-How to Run
-
-Clone the repository
-
-Compile the Java files
-
-Run the main class to train and test the network
-
-Make sure to reference the MNIST dataset to your local machine be yourself. 
+- Make sure to reference the MNIST dataset to your local machine be yourself. 
 
 Author
 
